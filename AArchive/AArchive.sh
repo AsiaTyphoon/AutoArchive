@@ -71,11 +71,12 @@ fi
 # 打包结束时间 
 archive_end_time=$(date "+%Y-%m-%d %H-%M-%S")
 
-exit 1
+
 # ）上传App Store
 # Application Loader路径
 #altoolPath="/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
-altoolPath="/Documents/Xcode/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
+# altoolPath="/Documents/Xcode/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
+altoolPath="/Users/dfsx1/Documents/Xcode/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support/altool"
 
 # 上传开始时间
 upload_start_time=$(date "+%Y-%m-%d %H-%M-%S")
